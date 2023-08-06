@@ -1,0 +1,11 @@
+servera.lab.virtual.local
+serverb.lab.virtual.local
+
+
+[servers]
+servera.lab.virtual.local
+serverb.lab.virtual.local
+
+[web_servers]
+servera.lab.virtual.local
+serverb.lab.virtual.local
