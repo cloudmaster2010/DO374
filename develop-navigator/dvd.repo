@@ -1,0 +1,11 @@
+[dvd-BaseOS]
+name=DVD for RHEL - BaseOS
+baseurl=http://192.168.50.51:8888/BaseOS
+enabled=1
+gpgcheck=0
+
+[dvd-AppStream]
+name=DVD for RHEL - AppStream
+baseurl=http://192.168.50.51:8888/AppStream
+enabled=1
+gpgcheck=0

@@ -1,0 +1,8 @@
+---
+- hosts: servers
+  tasks:
+    - name: Copy repo file to targets
+      ansible.builtin.copy:
+        src: dvd.repo
+        dest: /etc/yum.repos.d/dvd.repo
+
